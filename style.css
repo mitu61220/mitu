@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 24px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #0077cc;
+  color: white;
+  border-radius: 20px;
+}
+
+.project-card {
+  background: white;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
